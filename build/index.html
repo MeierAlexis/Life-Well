@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Well</title>
+    <link rel="icon" href="img/LogoIcon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="min-h-screen">
+    <header class="bg-yellow-100 text-black sticky top-0 z-10">
+        <section class="mx-auto flex justify-between items-center">
+            <img src="img/Logo.svg" alt="logo" class="cursor-pointer w-32 h-auto md:w-48" />
+            <div>
+                <button id="mobile-menu-button" class="text-4xl sm:hidden focus:outline-none text-black">
+                    &#9776;
+                </button>
+                <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
+                    <a href="#home" class="hover:opacity-70 text-black font-sans">Home</a>
+                    <a href="#about" class="hover:opacity-70 text-black">About</a>
+                    <a href="#contact" class="hover:opacity-70 text-black">Contact</a>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <main class="max-w-8xl mx-auto">
+     <section id="home" class="bg-yellow-100 flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 mx-auto w-full">
+    <img src="img/Busy.svg" alt="tired" class="w-3/2 sm:w-3/5" />
+    <article class="sm:w-1/2 text-center mt-0 sm:justify-center">
+        <h2 class="text-4xl font-bold font-serif text-black sm:text-5xl">The best way for organizing your busy life</h2>
+        <p class="text-lg sm:text-xl text-balance mt-2">Never has been much easier to organize your life.</p>
+        <button class="bg-customGreenIcon hover:text-black hover:bg-customYellowIcon text-white font-bold py-3 px-6 rounded-3xl mt-5">
+            Get Life Well <span class="ml-2">&#8594;</span>
+        </button>
+    </article>
+    </section>
+    <section class="max-w-8xl flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 mx-auto">
+        <article class=" text-center max-w-8x1  ">
+            <h2 class="text-4xl font-bold font-serif text-black sm:text-2xl ">A simple solution for a complicated life</h2>
+            <div class="mt-4 flex flex-col sm:flex-row justify-center gap-2">
+                <div class="flex flex-col mt-3 text-balance justify-center items-center mx-2">
+                    <p class="text-lg sm:text-xl">If you want to have time for <span class = " italic"> yourself </span></p>
+                    <img src="img/WorkBalance.svg" alt="Work Balance" class="w-full object-contain mt-10  bg-customGray rounded-full" />
+                </div>
+                <div class="flex flex-col mt-3 items-center mx-2 ">
+                    <p class="text-lg sm:text-xl">If you want to drink a quiet cup of coffee</p>
+                    <img src="img/Coffee.svg" alt="Coffee" class="w-full object-contain mt-10  bg-customGray rounded-full" />
+                </div>
+                <div class="flex flex-col mt-3 items-center mx-2 ">
+                    <p class="text-lg sm:text-xl">Or you just want to have <span class="italic">more time </span> to rest</p>
+                    <img src="img/Tired.svg" alt="Coffee" class="w-full object-contain mt-10  bg-customGray rounded-full" />
+                </div>
+            </div>
+        </article>
+    </section>
+        <section id="about" class="w-full mx-auto bg-customGray flex flex-col justify-center items-center p-6 gap-12 mb-12">
+
+            <article class="w-full text-center mb-2">
+                <h2 class="text-5xl font-bold font-serif text-black sm:text-3xl">What is Life Well?</h2>
+            </article>
+            <img src="img/YoutubeVideo.svg" alt="About"
+                class="w-full sm:w-2/3 md:w-1/2 object-contain mx-auto rounded-3xl cursor-pointer" />
+        
+            <!-- Descripción y funcionalidades -->
+            <article class="w-1/2 flex flex-col md:flex-row justify-center items-center gap-8 mt-8">
+                <h2 class="text-5xl font-bold font-serif text-black text-center sm:text-4xl md:mb-0 md:w-1/3">Organize your
+                    life with <span class="italic">Life Well</span></h2>
+                
+                <div class="flex flex-col md:flex-row gap-5 items-center">
+                
+                    <div class="flex flex-col items-center text-center">
+                        <img class="w-16 mb-2" src="img/Icon1.svg" alt="Multifunction
+                        al Icon" />
+                        <h6 class="font-bold font-serif text-lg">Multifunctional</h6>
+                        <p class="text-xs text-neutral-500 max-w-xs">To-do list, calendar, time blocking and more in one app.</p>
+                    </div>
+
+                    <div class="flex flex-col items-center text-center">
+                        <img class="w-16 mb-2" src="img/Icon2.svg" alt="Image of share" />
+                        <h6 class="font-bold font-serif text-lg">Shared calendar</h6>
+                        <p class="text-xs text-neutral-500 max-w-xs">With <span class= "italic"> Life Well</span> you can share your life with others.</p>
+                    </div>
+
+                    <div class="text-center items-center justify-center flex flex-col">
+                        <img class="w-16 mb-2" src="img/Icon3.svg" alt="" />
+                        <h6 class="font-bold font-serif text-lg">Track progress</h6>
+                        <p class="text-xs text-neutral-600">With <span class="italic">Life Well</span> you can track your progress in your goals.</p>
+                    </div>
+                </div>
+            </article>
+        
+            <button class="bg-customGreenIcon hover:text-black hover:bg-customYellowIcon text-white font-bold py-3 px-6 rounded-3xl">
+                Try Life Well <span class="ml-2">&#8594;</span>
+            </button>
+        </section>
+
+        <section id="Testimonials" class="max-w-7xl mx-auto bg-white flex flex-col justify-center items-center p-6 gap-6 mb-12">
+
+            <article class="w-full text-center">
+                <h2 class="text-5xl font-bold font-serif text-black sm:text-3xl">What our users say</h2>
+            </article>
+            <div class="w-full flex flex-col md:flex-row justify-center items-center gap-8">
+                <div class="flex flex-col items-center shadow-lg p-8 rounded-2xl justify-center bg-customGray">
+                    <image src="img/AppleStore.webp" alt="Apple Store" class="w-1/5 object-contain -mb-10" />
+                    <image src="img/AppleStars.svg" alt=" Apple Stars" class = "w-1/5 object-contain -mb-10" />
+                    <p class="text-xs text-center text-slate-800 tracking-widest">Our Apple users love us!</p>
+                    <image src="img/GooglePlay.svg" alt="Google Play" class="w-1/2 object-contain -mb-16" />
+                    <image src="img/AndroidStars.svg" alt=" Android Stars" class = "w-1/5 object-contain -mb-10" />
+                    <p class="text-xs text-center text-slate-800 tracking-widest">Our Android users love us too!</p>
+                </div>
+                <div class="flex flex-col items-center shadow-lg p-8 rounded-2xl bg-customGray">
+
+                </div>
+                <div class="flex flex-col items-center shadow-lg p-8 rounded-2xl bg-customGray">
+
+                </div>
+        
+        </section>
+
+
+
+    </main>
+</body>
+
+</html>
