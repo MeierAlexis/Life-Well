@@ -79,13 +79,13 @@
 
                     <div class="flex flex-col items-center text-center">
                         <img class="w-16 mb-2" src="img/Icon2.svg" alt="Image of share" />
-                        <h6 class="font-bold font-serif text-lg">Shared calendar</h6>
+                        <h6 class="font-bold font-serif text-lg">Share</h6>
                         <p class="text-xs text-neutral-500 max-w-xs">With <span class= "italic"> Life Well</span> you can share your life with others.</p>
                     </div>
 
                     <div class="text-center items-center justify-center flex flex-col">
                         <img class="w-16 mb-2" src="img/Icon3.svg" alt="" />
-                        <h6 class="font-bold font-serif text-lg">Track progress</h6>
+                        <h6 class="font-bold font-serif text-lg">Track</h6>
                         <p class="text-xs text-neutral-600">With <span class="italic">Life Well</span> you can track your progress in your goals.</p>
                     </div>
                 </div>
@@ -96,32 +96,166 @@
             </button>
         </section>
 
-        <section id="Testimonials" class="max-w-7xl mx-auto bg-white flex flex-col justify-center items-center p-6 gap-6 mb-12">
+<section id="Testimonials" class="max-w-8xl mx-auto bg-white flex flex-col justify-center items-center p-6 gap-6 mb-12 ">
+    <article class="w-full text-center mb-6">
+        <h2 class="text-5xl font-bold font-serif text-black sm:text-3xl">What our users say</h2>
+    </article>
 
-            <article class="w-full text-center">
-                <h2 class="text-5xl font-bold font-serif text-black sm:text-3xl">What our users say</h2>
-            </article>
-            <div class="w-full flex flex-col md:flex-row justify-center items-center gap-8">
-                <div class="flex flex-col items-center shadow-lg p-8 rounded-2xl justify-center bg-customGray">
-                    <image src="img/AppleStore.webp" alt="Apple Store" class="w-1/5 object-contain -mb-10" />
-                    <image src="img/AppleStars.svg" alt=" Apple Stars" class = "w-1/5 object-contain -mb-10" />
-                    <p class="text-xs text-center text-slate-800 tracking-widest">Our Apple users love us!</p>
-                    <image src="img/GooglePlay.svg" alt="Google Play" class="w-1/2 object-contain -mb-16" />
-                    <image src="img/AndroidStars.svg" alt=" Android Stars" class = "w-1/5 object-contain -mb-10" />
-                    <p class="text-xs text-center text-slate-800 tracking-widest">Our Android users love us too!</p>
-                </div>
-                <div class="flex flex-col items-center shadow-lg p-8 rounded-2xl bg-customGray">
+    <!-- Testimonials Container -->
+    <div class="w-full md:w-3/4 h-full flex flex-col lg:flex-row justify-center items-center gap-8 align-middle">
+        <!-- First Testimonial: Apple & Google -->
+        <div
+            class="flex flex-col items-center  shadow-lg rounded-2xl w-full  bg-customGray p-6 justify-between h-auto gap-3 min-h-72 max-h-80">
+            <!-- Apple Store Section -->
+            <img src="img/AppleStore.svg" alt="Apple Store" class="w-36 mr-2 object-contain" />
+            <img src="img/AppleStars.svg" alt="Apple Stars" class="w-24 object-contain " />
+            <p class="text-xs text-center text-slate-800 tracking-widest ">Our Apple users love us!</p>
 
-                </div>
-                <div class="flex flex-col items-center shadow-lg p-8 rounded-2xl bg-customGray">
+            <!-- Google Play Section -->
+            <img src="img/GooglePlay.svg" alt="Google Play" class="w-36 object-contain " />
+            <img src="img/AndroidStars.svg" alt="Android Stars" class="w-24 object-contain " />
+            <p class="text-xs text-center text-slate-800 tracking-widest">Our Android users love us too!</p>
+        </div>
 
-                </div>
-        
-        </section>
+        <!-- Second Testimonial: John Doe -->
+        <div
+            class="flex flex-col  shadow-lg rounded-2xl w-full  bg-customGray p-6 justify-between h-auto  min-h-72 max-h-80">
+            <h2 class="text-lg font-bold mb-2 min-h-12">Excellent App</h2>
+            <p class="text-xs text-slate-800 tracking-widest">Life Well helps you stay organized, set goals, and manage
+                to-do lists easily—perfect for achieving balance and productivity.</p>
+            <div class="flex items-center gap-2 mt-8 justify-between w-full">
+                <p class="text-sm font-bold text-slate-800">John Doe</p>
+                <img src="img/AppleLogo.svg" alt="Apple Logo" class="w-10 h-10 " />
+            </div>
+            <img src="img/5AppleStars.svg" alt="Stars" class="w-28 h-auto " />
+        </div>
+
+        <!-- Third Testimonial: Sophia Smith -->
+        <div
+            class="flex flex-col   shadow-lg rounded-2xl w-full  bg-customGray p-6 justify-between h-auto min-h-72 max-h-80">
+            <h2 class="text-lg font-bold mb-2 min-h-12">Wow! This Changed My Life</h2>
+            <p class="text-xs text-slate-800 tracking-widest">Life Well makes organizing goals and tasks simple, helping
+                you stay productive and focused every day.</p>
+            <div class="flex items-center gap-2 mt-8 justify-between w-full">
+                <p class="text-sm font-bold text-slate-800">Sophia Smith</p>
+                <img src="img/GooglePlayMini.svg" alt="Google Play Logo" class="w-10 h-10" />
+            </div>
+            <img src="img/AndroidStars.svg" alt="Stars" class="w-28 h-auto" />
+        </div>
+    </div>
+</section>
+
+<section id="Contact"
+    class="max-w-8xl w-full mx-auto bg-yellow-100 flex flex-row p-6 gap-6 justify-between items-center">
+
+    <div class="flex-grow flex justify-center">
+        <img src="img/Background2.svg" alt="Background2" class="object-contain w-60 h-60 fade-image mask-image-fade-bottom" />
+    </div>
+
+    <div class="flex-grow text-center">
+        <h2 class="text-5xl font-bold font-serif text-black sm:text-3xl mb-4">Access now to <span class="italic">Life
+                Well</span></h2>
+        <p class="text-2xl font-sans text-black sm:text-xl">Get started for free all in one place</p>
+        <button
+            class="bg-transparent border-2 hover:border-0 border-black text-black hover:bg-customYellowIcon hover:text-white font-bold py-3 px-6 rounded-2xl mt-4">
+            Try Life Well
+        </button>
+    </div>
+
+    <div class="flex-grow flex justify-center">
+        <img src="img/Background1.svg" alt="Background1" class="object-contain w-60 h-60 fade-image mask-image-fade-bottom" />
+    </div>
+
+</section>
+
+<footer class="bg-yellow-100 ">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <h4 class="text-lg font-bold mb-4">Download</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Life Well for Windows</a></li>
+                    <li><a href="#" class="hover:underline">Life Well for Mac</a></li>
+                    <li><a href="#" class="hover:underline">Life Well for Android</a></li>
+                    <li><a href="#" class="hover:underline">Life Well for iOS</a></li>
+                    <li><a href="#" class="hover:underline">Life Well for Linux</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-bold mb-4">Life Well for</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Enterprise</a></li>
+                    <li><a href="#" class="hover:underline">Small Company</a></li>
+                    <li><a href="#" class="hover:underline">Personal</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-bold mb-4">Company</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Meet the team</a></li>
+                    <li><a href="#" class="hover:underline">Security</a></li>
+                    <li><a href="#" class="hover:underline">Offers jobs</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-bold mb-4">Resources</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Blog</a></li>
+                    <li><a href="#" class="hover:underline">Price</a></li>
+                    <li><a href="#" class="hover:underline">Community</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-sm">© 2024 Life Well, Inc</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <!-- Instagram -->
+                <a href="#" class="text-black hover:text-slate-700"><span class="[&>svg]:h-5 [&>svg]:w-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                        
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </span></i></a>
+                <!-- Linkedin -->
+                <a href="#" class="text-black hover:text-slate-700">
+                   
+                    <span class="[&>svg]:h-5 [&>svg]:w-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                            <path
+                                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                        </svg>
+                    </span>
+                </a>
+                <!-- Youtube -->
+                <a href="#" class="text-black hover:text-slate-700">
+                    <span class="[&>svg]:h-5 [&>svg]:w-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 576 512">
+                            <path
+                                d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                        </svg>
+                    </span>
+                </a>
+                <!-- X -->
+                <a href="#" class="text-black hover:text-slate-700">
+                    <span class="[&>svg]:h-5 [&>svg]:w-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512">
+                            <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
-
-    </main>
+</main>
 </body>
 
 </html>
